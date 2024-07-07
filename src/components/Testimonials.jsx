@@ -10,8 +10,8 @@ export default function Testimonials() {
   return (
     <div className="py-24 bg-base-200 min-h-[100vh] px-5" id="test">
       <motion.div
-        initial={{ y: "100px", opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
+        initial={{ y: "100px", opacity: 0, transitionTimingFunction:'linear' }}
+        whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
         transition={{ duration: 1.2, delay: 0 }}
         className="m-10"
       >
@@ -21,8 +21,8 @@ export default function Testimonials() {
 
       <div className="flex flex-wrap w-full mx-auto justify-center gap-5">
         <motion.div
-          initial={{ y: "-100px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
+          whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
           transition={{ duration: 1.2, delay: 0 }}
           className="card glass max-w-96 w-full shadow-xl bg-orange-500"
         >
@@ -70,8 +70,8 @@ export default function Testimonials() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "-100px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "-100px", opacity: 0 ,  transitionTimingFunction:'linear'}}
+          whileInView={{ y: 0, opacity: 1 ,  transitionTimingFunction:'linear'}}
           transition={{ duration: 1.2, delay: 0.2 }}
           className="card glass max-w-96 w-full shadow-xl bg-green-600"
         >
@@ -121,8 +121,8 @@ export default function Testimonials() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "100px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "100px", opacity: 0, transitionTimingFunction:'linear' }}
+          whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
           transition={{ duration: 1.2, delay: 0.3 }}
           className="card glass max-w-96 w-full shadow-xl bg-orange-500"
         >
@@ -145,7 +145,6 @@ export default function Testimonials() {
                   type="radio"
                   name="rating-4"
                   className="mask mask-star-2 bg-black-500"
-                  
                 />
                 <input
                   type="radio"
@@ -174,8 +173,8 @@ export default function Testimonials() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "200px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "200px", opacity: 0, transitionTimingFunction:'linear' }}
+          whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
           transition={{ duration: 1.2, delay: 0.4 }}
           className="card glass bg-green-600 max-w-96 w-full shadow-xl"
         >
@@ -198,7 +197,6 @@ export default function Testimonials() {
                   type="radio"
                   name="rating-4"
                   className="mask mask-star-2 bg-black-500"
-                  
                 />
                 <input
                   type="radio"
