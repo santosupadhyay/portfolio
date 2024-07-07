@@ -9,8 +9,8 @@ export default function Skills() {
   return (
     <div className="bg-base-300 px-5 py-28 min-h-[80vh] " id="skills">
       <motion.div
-        initial={{ y: "-200px", opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
+        initial={{ y: "-200px", opacity: 0 , transitionTimingFunction:'linear'}}
+        whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
         transition={{ duration: 1.2 }}
       >
         <h1 className="text-3xl font-bold text-center ">Skills</h1>
@@ -19,8 +19,8 @@ export default function Skills() {
 
       <div className="flex justify-center gap-20 flex-col items-center md:flex-row">
         <motion.div
-          initial={{ y: "-200px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "-200px", opacity: 0 , transitionTimingFunction:'linear'}}
+          whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
           transition={{ duration: 1.2, delay: 0.4 }}
           className="card glass card-compact  max-w-96 w-full shadow-xl bg-blue-400"
         >
@@ -37,8 +37,8 @@ export default function Skills() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "-200px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "-200px", opacity: 0 , transitionTimingFunction:'linear'}}
+          whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
           transition={{ duration: 1.2, delay: 0.6 }}
           className="glass card card-compact max-w-96 w-full shadow-xl bg-yellow-600"
         >
@@ -57,8 +57,8 @@ export default function Skills() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "-200px", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "-200px", opacity: 0,  transitionTimingFunction:'linear' }}
+          whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
           transition={{ duration: 1.2, delay: 0.8 }}
           className="glass card card-compact bg-pink-400 max-w-96 w-full shadow-xl"
         >
