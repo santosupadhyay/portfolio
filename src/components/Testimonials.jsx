@@ -121,7 +121,7 @@ export default function Testimonials() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "100px", opacity: 0, transitionTimingFunction:'linear' }}
+          initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
           whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
           transition={{ duration: 1.2, delay: 0.3 }}
           className="card glass max-w-96 w-full shadow-xl bg-orange-500"
@@ -173,7 +173,7 @@ export default function Testimonials() {
         </motion.div>
 
         <motion.div
-          initial={{ y: "200px", opacity: 0, transitionTimingFunction:'linear' }}
+          initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
           whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
           transition={{ duration: 1.2, delay: 0.4 }}
           className="card glass bg-green-600 max-w-96 w-full shadow-xl"
