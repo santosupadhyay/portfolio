@@ -12,7 +12,7 @@ export default function Testimonials() {
       <motion.div
         initial={{ y: "100px", opacity: 0, transitionTimingFunction:'linear' }}
         whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
-        transition={{ duration: 1.2, delay: 0 }}
+        transition={{ duration: 0.8, delay: 0 }}
         className="m-10"
       >
         <h1 className="text-center text-3xl font-bold">Testimonials</h1>
@@ -23,7 +23,7 @@ export default function Testimonials() {
         <motion.div
           initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
           whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
-          transition={{ duration: 1.2, delay: 0 }}
+          transition={{ duration: 0.6, delay: 0 }}
           className="card glass max-w-96 w-full shadow-xl bg-orange-500"
         >
           <div className="card-body">
@@ -72,7 +72,7 @@ export default function Testimonials() {
         <motion.div
           initial={{ y: "-100px", opacity: 0 ,  transitionTimingFunction:'linear'}}
           whileInView={{ y: 0, opacity: 1 ,  transitionTimingFunction:'linear'}}
-          transition={{ duration: 1.2, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="card glass max-w-96 w-full shadow-xl bg-green-600"
         >
           <div className="card-body">
@@ -123,7 +123,7 @@ export default function Testimonials() {
         <motion.div
           initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
           whileInView={{ y: 0, opacity: 1 , transitionTimingFunction:'linear'}}
-          transition={{ duration: 1.2, delay: 0.3 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
           className="card glass max-w-96 w-full shadow-xl bg-orange-500"
         >
           <figure></figure>
@@ -175,7 +175,7 @@ export default function Testimonials() {
         <motion.div
           initial={{ y: "-100px", opacity: 0, transitionTimingFunction:'linear' }}
           whileInView={{ y: 0, opacity: 1, transitionTimingFunction:'linear' }}
-          transition={{ duration: 1.2, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
           className="card glass bg-green-600 max-w-96 w-full shadow-xl"
         >
           <figure></figure>
