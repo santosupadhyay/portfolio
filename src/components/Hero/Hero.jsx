@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "../../assets/images/Profile.jpeg";
 import { BiLogoTelegram } from "react-icons/bi";
 
